@@ -1,0 +1,48 @@
+
+
+
+pseudo-elements
+::before
+::after
+::first-line
+
+
+body{
+    background-color: aliceblue;
+}
+
+.profile-section {
+    text-align: center;
+    border:1px solid ;
+}
+
+.heading{
+    border:1px solid red;
+}
+
+.heading::before{
+    content: 'this is a content';
+    width: 5rem;
+    height: 5rem;
+    border: red;
+
+}
+.pro-file {
+    border:1px solid red;
+
+}
+
+.my-span{
+    border:1px solid green;
+
+    
+
+
+}
+div{
+
+}
+
+section{
+
+}
